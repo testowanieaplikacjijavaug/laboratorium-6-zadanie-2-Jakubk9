@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="pl"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Friendships.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">test-zad2</a> &gt; <a href="index.source.html" class="el_package">default</a> &gt; <span class="el_source">Friendships.java</span></div><h1>Friendships.java</h1><pre class="source lang-java linenums">import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+<span class="fc" id="L6">public class Friendships {</span>
+<span class="fc" id="L7">    public Map&lt;String, List&lt;String&gt;&gt; friendships = new HashMap&lt;&gt;();</span>
+
+    //Dodanie przyjaciĂłĹ‚ - wykorzystuje funkcje addFriend!
+    public void makeFriends(String person1, String person2) {
+<span class="pc bpc" id="L11" title="1 of 4 branches missed.">        if(person1 == null || person2 == null)</span>
+<span class="fc" id="L12">            throw new IllegalArgumentException();</span>
+<span class="pc bpc" id="L13" title="2 of 4 branches missed.">        if(person1.length() == 0 || person2.length() == 0)</span>
+<span class="nc" id="L14">            throw new IllegalArgumentException();</span>
+<span class="fc" id="L15">        addFriend(person1, person2);</span>
+<span class="fc" id="L16">        addFriend(person2, person1);</span>
+<span class="fc" id="L17">    }</span>
+
+    //Pobranie listy przyjaciol
+    public List&lt;String&gt; getFriendsList(String person) {
+<span class="fc bfc" id="L21" title="All 2 branches covered.">        if(person == null)</span>
+<span class="fc" id="L22">            throw new IllegalArgumentException();</span>
+<span class="pc bpc" id="L23" title="1 of 2 branches missed.">        if(person.length() == 0)</span>
+<span class="nc" id="L24">            throw new IllegalArgumentException();</span>
+<span class="pc bpc" id="L25" title="1 of 2 branches missed.">        if(!friendships.containsKey(person))</span>
+<span class="nc" id="L26">            throw new IllegalArgumentException();</span>
+<span class="fc" id="L27">        return friendships.get(person);</span>
+    }
+
+    //Sprawdzenie czy przyjaciele
+    public boolean areFriends(String person1, String person2) {
+<span class="pc bpc" id="L32" title="1 of 4 branches missed.">        if(person1 == null || person2 == null)</span>
+<span class="fc" id="L33">            throw new IllegalArgumentException();</span>
+<span class="pc bpc" id="L34" title="2 of 4 branches missed.">        if(person1.length() == 0 || person2.length() == 0)</span>
+<span class="nc" id="L35">            throw new IllegalArgumentException();</span>
+<span class="pc bpc" id="L36" title="1 of 2 branches missed.">        if(!friendships.containsKey(person1))</span>
+<span class="nc" id="L37">            throw new IllegalArgumentException();</span>
+<span class="fc" id="L38">        List&lt;String&gt; friends = friendships.get(person1);</span>
+<span class="fc bfc" id="L39" title="All 2 branches covered.">        if(friends.contains(person2))</span>
+<span class="fc" id="L40">            return true;</span>
+<span class="fc" id="L41">        return false;</span>
+    }
+    //Dodanie do listy przyjaciol do danej osoby
+    private void addFriend(String person, String friend) {
+<span class="fc bfc" id="L45" title="All 2 branches covered.">        if(friendships.containsKey(person)) {</span>
+<span class="fc" id="L46">            List&lt;String&gt; friends = friendships.get(person);</span>
+<span class="fc" id="L47">            friends.add(friend);</span>
+<span class="fc" id="L48">            friendships.put(person, friends);</span>
+<span class="fc" id="L49">        } else {</span>
+<span class="fc" id="L50">            List&lt;String&gt; list = new ArrayList&lt;&gt;();</span>
+<span class="fc" id="L51">            list.add(friend);</span>
+<span class="fc" id="L52">            friendships.put(person, list);</span>
+        }
+<span class="fc" id="L54">    }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.2.201808211720</span></div></body></html>

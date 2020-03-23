@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id 'jacoco'
 }
 
 group 'test-zad2'
@@ -22,6 +23,14 @@ dependencies {
     testImplementation 'org.hamcrest:hamcrest-library:2.2'
 
 }
+
 test {
     useJUnitPlatform()
+}
+
+jacocoTestReport {
+    reports {
+        xml.enabled = true
+        html.enabled = true
+    }
 }
