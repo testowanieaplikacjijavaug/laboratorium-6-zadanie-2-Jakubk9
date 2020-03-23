@@ -33,13 +33,28 @@ public class FriendShipsAssertJTest {
     }
 
     @Test
-    public void givenEmptyFriendList() {
+    public void givenNullFriendList() {
         Assertions.assertThatThrownBy(() -> {friendships.getFriendsList(null);}).isInstanceOf(IllegalArgumentException.class);
     }
 
     @Test
     public void givenNullFriends() {
         Assertions.assertThatThrownBy(() -> {friendships.areFriends(null,null);}).isInstanceOf(IllegalArgumentException.class);
+    }
+
+    @Test
+    public void makeEmptyFriends() {
+        Assertions.assertThatThrownBy(() -> {friendships.makeFriends("","");}).isInstanceOf(IllegalArgumentException.class);
+    }
+
+    @Test
+    public void givenEmptyFriendList() {
+        Assertions.assertThatThrownBy(() -> {friendships.getFriendsList("");}).isInstanceOf(IllegalArgumentException.class);
+    }
+
+    @Test
+    public void givenEmptyFriends() {
+        Assertions.assertThatThrownBy(() -> {friendships.areFriends("","");}).isInstanceOf(IllegalArgumentException.class);
     }
 
     @Test

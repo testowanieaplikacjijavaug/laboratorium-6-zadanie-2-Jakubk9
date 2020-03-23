@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="FriendshipsHamcrestTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-03-23T14:34:56" hostname="LAPTOP-I1ADN5DE" time="0.182">
+<testsuite name="FriendshipsHamcrestTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2020-03-23T14:49:08" hostname="LAPTOP-I1ADN5DE" time="0.12">
   <properties/>
-  <testcase name="givenEmptyFriendList()" classname="FriendshipsHamcrestTest" time="0.095"/>
-  <testcase name="theyAreFriendsTest()" classname="FriendshipsHamcrestTest" time="0.022"/>
-  <testcase name="theyAreNotFriendsTest()" classname="FriendshipsHamcrestTest" time="0.002"/>
-  <testcase name="checkSizeTest()" classname="FriendshipsHamcrestTest" time="0.015"/>
-  <testcase name="givenNullFriends()" classname="FriendshipsHamcrestTest" time="0.004"/>
-  <testcase name="givenFourFriends()" classname="FriendshipsHamcrestTest" time="0.019"/>
-  <testcase name="givenTwoFriends()" classname="FriendshipsHamcrestTest" time="0.004"/>
-  <testcase name="makeNullFriends()" classname="FriendshipsHamcrestTest" time="0.002"/>
+  <testcase name="givenEmptyFriendList()" classname="FriendshipsHamcrestTest" time="0.027"/>
+  <testcase name="theyAreFriendsTest()" classname="FriendshipsHamcrestTest" time="0.025"/>
+  <testcase name="theyAreNotFriendsTest()" classname="FriendshipsHamcrestTest" time="0.001"/>
+  <testcase name="checkSizeTest()" classname="FriendshipsHamcrestTest" time="0.018"/>
+  <testcase name="givenNullFriends()" classname="FriendshipsHamcrestTest" time="0.001"/>
+  <testcase name="givenEmptyFriends()" classname="FriendshipsHamcrestTest" time="0.001"/>
+  <testcase name="givenFourFriends()" classname="FriendshipsHamcrestTest" time="0.011"/>
+  <testcase name="givenNullFriendList()" classname="FriendshipsHamcrestTest" time="0.001"/>
+  <testcase name="givenTwoFriends()" classname="FriendshipsHamcrestTest" time="0.002"/>
+  <testcase name="makeNullFriends()" classname="FriendshipsHamcrestTest" time="0.006"/>
   <testcase name="makeFriendsTest()" classname="FriendshipsHamcrestTest" time="0.0"/>
+  <testcase name="makeEmptyFriends()" classname="FriendshipsHamcrestTest" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
