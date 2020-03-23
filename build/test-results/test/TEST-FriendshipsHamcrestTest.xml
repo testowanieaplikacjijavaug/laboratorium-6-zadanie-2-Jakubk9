@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="FriendshipsHamcrestTest" tests="17" skipped="0" failures="0" errors="0" timestamp="2020-03-23T15:14:07" hostname="LAPTOP-I1ADN5DE" time="0.069">
+  <properties/>
+  <testcase name="makeOneEmptyFriends()" classname="FriendshipsHamcrestTest" time="0.019"/>
+  <testcase name="givenEmptyFriendList()" classname="FriendshipsHamcrestTest" time="0.002"/>
+  <testcase name="theyAreFriendsTest()" classname="FriendshipsHamcrestTest" time="0.007"/>
+  <testcase name="givenOneEmptyFriends()" classname="FriendshipsHamcrestTest" time="0.001"/>
+  <testcase name="theyAreNotFriendsTest()" classname="FriendshipsHamcrestTest" time="0.0"/>
+  <testcase name="checkSizeTest()" classname="FriendshipsHamcrestTest" time="0.006"/>
+  <testcase name="givenNullFriends()" classname="FriendshipsHamcrestTest" time="0.002"/>
+  <testcase name="makeOneNullFriends()" classname="FriendshipsHamcrestTest" time="0.002"/>
+  <testcase name="givenEmptyFriends()" classname="FriendshipsHamcrestTest" time="0.001"/>
+  <testcase name="givenOneNullFriends()" classname="FriendshipsHamcrestTest" time="0.001"/>
+  <testcase name="givenFourFriends()" classname="FriendshipsHamcrestTest" time="0.004"/>
+  <testcase name="givenNullFriendList()" classname="FriendshipsHamcrestTest" time="0.002"/>
+  <testcase name="givenTwoFriends()" classname="FriendshipsHamcrestTest" time="0.001"/>
+  <testcase name="makeNullFriends()" classname="FriendshipsHamcrestTest" time="0.001"/>
+  <testcase name="givenNotAFriends()" classname="FriendshipsHamcrestTest" time="0.001"/>
+  <testcase name="makeFriendsTest()" classname="FriendshipsHamcrestTest" time="0.001"/>
+  <testcase name="makeEmptyFriends()" classname="FriendshipsHamcrestTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

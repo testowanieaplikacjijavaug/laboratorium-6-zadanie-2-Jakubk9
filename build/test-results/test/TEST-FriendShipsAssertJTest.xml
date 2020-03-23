@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="FriendShipsAssertJTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-03-23T14:55:13" hostname="LAPTOP-I1ADN5DE" time="0.128">
-  <properties/>
-  <testcase name="givenNotAFriends()" classname="FriendShipsAssertJTest" time="0.128"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
