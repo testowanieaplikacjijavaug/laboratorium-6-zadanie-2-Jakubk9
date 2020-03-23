@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="FriendShipsAssertJTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2020-03-23T14:49:08" hostname="LAPTOP-I1ADN5DE" time="0.421">
+<testsuite name="FriendShipsAssertJTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-03-23T14:55:13" hostname="LAPTOP-I1ADN5DE" time="0.128">
   <properties/>
-  <testcase name="givenEmptyFriendList()" classname="FriendShipsAssertJTest" time="0.329"/>
-  <testcase name="theyAreFriendsTest()" classname="FriendShipsAssertJTest" time="0.004"/>
-  <testcase name="theyAreNotFriendsTest()" classname="FriendShipsAssertJTest" time="0.001"/>
-  <testcase name="checkSizeTest()" classname="FriendShipsAssertJTest" time="0.053"/>
-  <testcase name="givenNullFriends()" classname="FriendShipsAssertJTest" time="0.001"/>
-  <testcase name="givenEmptyFriends()" classname="FriendShipsAssertJTest" time="0.001"/>
-  <testcase name="givenFourFriends()" classname="FriendShipsAssertJTest" time="0.01"/>
-  <testcase name="givenNullFriendList()" classname="FriendShipsAssertJTest" time="0.002"/>
-  <testcase name="givenTwoFriends()" classname="FriendShipsAssertJTest" time="0.0"/>
-  <testcase name="makeNullFriends()" classname="FriendShipsAssertJTest" time="0.003"/>
-  <testcase name="makeFriendsTest()" classname="FriendShipsAssertJTest" time="0.001"/>
-  <testcase name="makeEmptyFriends()" classname="FriendShipsAssertJTest" time="0.002"/>
+  <testcase name="givenNotAFriends()" classname="FriendShipsAssertJTest" time="0.128"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

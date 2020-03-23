@@ -58,6 +58,12 @@ public class FriendShipsAssertJTest {
     }
 
     @Test
+    public void givenNotAFriends() {
+        friendships.makeFriends("Mariusz", "Marcin");
+        Assertions.assertThatThrownBy(() -> {friendships.areFriends("Kuba","Mariusz");}).isInstanceOf(IllegalArgumentException.class);
+    }
+
+    @Test
     public void givenTwoFriends() {
         friendships.makeFriends("Mariusz", "Marcin");
         Assertions.assertThat(friendships.getFriendsList("Mariusz")).contains("Marcin").hasSize(1);

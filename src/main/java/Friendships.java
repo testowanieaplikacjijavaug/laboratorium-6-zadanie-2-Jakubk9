@@ -22,8 +22,6 @@ public class Friendships {
             throw new IllegalArgumentException();
         if(person.length() == 0)
             throw new IllegalArgumentException();
-        if(!friendships.containsKey(person))
-            throw new IllegalArgumentException();
         return friendships.get(person);
     }
 

@@ -55,6 +55,12 @@ public class FriendshipsHamcrestTest {
     }
 
     @Test
+    public void givenNotAFriends() {
+        friendships.makeFriends("Mariusz", "Marcin");
+        assertThrows(IllegalArgumentException.class, () -> friendships.areFriends("Kuba", "Mariusz"));
+    }
+
+    @Test
     public void givenTwoFriends() {
         friendships.makeFriends("Mariusz", "Marcin");
         assertThat(friendships.getFriendsList("Mariusz"), contains("Marcin"));

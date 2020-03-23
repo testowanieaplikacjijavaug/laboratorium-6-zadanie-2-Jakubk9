@@ -50,13 +50,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.Tests in 'test-zad2.test'">
-    <configuration name="FriendshipsHamcrestTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.FriendShipsAssertJTest.givenNotAFriends">
+    <configuration name="FriendShipsAssertJTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;FriendshipsHamcrestTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;FriendShipsAssertJTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -71,12 +71,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="FriendshipsHamcrestTest.checkSizeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FriendShipsAssertJTest.givenEmptyFriends" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;FriendshipsHamcrestTest.checkSizeTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;FriendShipsAssertJTest.givenEmptyFriends&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -91,12 +91,32 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="FriendshipsHamcrestTest.theyAreFriendsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FriendShipsAssertJTest.givenNotAFriends" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;FriendshipsHamcrestTest.theyAreFriendsTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;FriendShipsAssertJTest.givenNotAFriends&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="FriendshipsHamcrestTest.givenNotAFriends" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;FriendshipsHamcrestTest.givenNotAFriends&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -131,32 +151,13 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="laboratorium-6-zadanie-2-Jakubk9 [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.FriendShipsAssertJTest.givenNotAFriends" />
+        <item itemvalue="Gradle.FriendShipsAssertJTest.givenEmptyFriends" />
+        <item itemvalue="Gradle.FriendshipsHamcrestTest.givenNotAFriends" />
         <item itemvalue="Gradle.Tests in 'test-zad2.test'" />
-        <item itemvalue="Gradle.laboratorium-6-zadanie-2-Jakubk9 [test]" />
-        <item itemvalue="Gradle.FriendshipsHamcrestTest" />
-        <item itemvalue="Gradle.FriendshipsHamcrestTest.theyAreFriendsTest" />
-        <item itemvalue="Gradle.FriendshipsHamcrestTest.checkSizeTest" />
+        <item itemvalue="Gradle.FriendShipsAssertJTest" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +171,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584961526932</updated>
-      <workItem from="1584961530993" duration="8629000" />
+      <workItem from="1584961530993" duration="9613000" />
     </task>
     <servers />
   </component>
@@ -187,5 +188,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/test_zad2$Tests_in__test_zad2_test_.ic" NAME="Tests in 'test-zad2.test' Coverage Results" MODIFIED="1584974944804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
