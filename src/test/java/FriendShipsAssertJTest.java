@@ -33,6 +33,11 @@ public class FriendShipsAssertJTest {
     }
 
     @Test
+    public void makeOneNullFriends() {
+        Assertions.assertThatThrownBy(() -> {friendships.makeFriends("Mariusz",null);}).isInstanceOf(IllegalArgumentException.class);
+    }
+
+    @Test
     public void givenNullFriendList() {
         Assertions.assertThatThrownBy(() -> {friendships.getFriendsList(null);}).isInstanceOf(IllegalArgumentException.class);
     }
@@ -45,6 +50,11 @@ public class FriendShipsAssertJTest {
     @Test
     public void makeEmptyFriends() {
         Assertions.assertThatThrownBy(() -> {friendships.makeFriends("","");}).isInstanceOf(IllegalArgumentException.class);
+    }
+
+    @Test
+    public void makeOneEmptyFriends() {
+        Assertions.assertThatThrownBy(() -> {friendships.makeFriends("Mariusz","");}).isInstanceOf(IllegalArgumentException.class);
     }
 
     @Test

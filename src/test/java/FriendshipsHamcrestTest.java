@@ -30,6 +30,12 @@ public class FriendshipsHamcrestTest {
     }
 
     @Test
+    public void makeOneNullFriends() {
+        assertThrows(IllegalArgumentException.class, () -> friendships.makeFriends("Mariusz",null));
+    }
+
+
+    @Test
     public void givenNullFriendList() {
         assertThrows(IllegalArgumentException.class, () -> friendships.getFriendsList(null));
     }
@@ -42,6 +48,11 @@ public class FriendshipsHamcrestTest {
     @Test
     public void makeEmptyFriends() {
         assertThrows(IllegalArgumentException.class, () -> friendships.makeFriends("",""));
+    }
+
+    @Test
+    public void makeOneEmptyFriends() {
+        assertThrows(IllegalArgumentException.class, () -> friendships.makeFriends("Mariusz",""));
     }
 
     @Test
