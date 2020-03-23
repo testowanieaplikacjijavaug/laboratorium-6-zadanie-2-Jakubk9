@@ -50,13 +50,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.FriendShipsAssertJTest">
-    <configuration name="FriendShipsAssertJTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.FriendshipsHamcrestTest">
+    <configuration name="FriendshipsHamcrestTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;FriendShipsAssertJTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;FriendshipsHamcrestTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -71,12 +71,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="FriendShipsAssertJTest.givenFourFriends" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FriendshipsHamcrestTest.checkSizeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;FriendShipsAssertJTest.givenFourFriends&quot;" />
+        <option name="scriptParameters" value="--tests &quot;FriendshipsHamcrestTest.checkSizeTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -91,12 +91,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="FriendShipsAssertJTest.makeFriendsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FriendshipsHamcrestTest.givenFourFriends" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;FriendShipsAssertJTest.makeFriendsTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;FriendshipsHamcrestTest.givenFourFriends&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -111,12 +111,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="FriendShipsAssertJTest.makeNullFriends" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FriendshipsHamcrestTest.givenTwoFriends" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;FriendShipsAssertJTest.makeNullFriends&quot;" />
+        <option name="scriptParameters" value="--tests &quot;FriendshipsHamcrestTest.givenTwoFriends&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -131,12 +131,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="FriendshipsHamcrestTest.givenNullFriends" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FriendshipsHamcrestTest.theyAreFriendsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;FriendshipsHamcrestTest.givenNullFriends&quot;" />
+        <option name="scriptParameters" value="--tests &quot;FriendshipsHamcrestTest.theyAreFriendsTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -153,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.FriendShipsAssertJTest" />
-        <item itemvalue="Gradle.FriendShipsAssertJTest.makeNullFriends" />
-        <item itemvalue="Gradle.FriendShipsAssertJTest.givenFourFriends" />
-        <item itemvalue="Gradle.FriendShipsAssertJTest.makeFriendsTest" />
-        <item itemvalue="Gradle.FriendshipsHamcrestTest.givenNullFriends" />
+        <item itemvalue="Gradle.FriendshipsHamcrestTest" />
+        <item itemvalue="Gradle.FriendshipsHamcrestTest.theyAreFriendsTest" />
+        <item itemvalue="Gradle.FriendshipsHamcrestTest.checkSizeTest" />
+        <item itemvalue="Gradle.FriendshipsHamcrestTest.givenFourFriends" />
+        <item itemvalue="Gradle.FriendshipsHamcrestTest.givenTwoFriends" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +171,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584961526932</updated>
-      <workItem from="1584961530993" duration="6991000" />
+      <workItem from="1584961530993" duration="7703000" />
     </task>
     <servers />
   </component>

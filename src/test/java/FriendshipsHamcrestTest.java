@@ -1,6 +1,4 @@
-import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.IsNull.nullValue;
@@ -11,13 +9,13 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 public class FriendshipsHamcrestTest {
     private static Friendships friendships;
 
-    @BeforeAll
-    public static void setup() {
+    @BeforeEach
+    public void setup() {
         friendships = new Friendships();
     }
 
-    @AfterAll
-    public static void tearDown() {
+    @AfterEach
+    public void tearDown() {
         friendships = null;
     }
 
